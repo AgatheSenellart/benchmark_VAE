@@ -30,5 +30,5 @@
 #python training.py --dataset mnist --model_name beta_tc_vae --model_config configs/mnist/beta_tc_vae_config.json --training_config configs/mnist/base_training_config.json
 #python training.py --dataset celeba --model_name beta_tc_vae --model_config configs/celeba/beta_tc_vae_config.json --training_config configs/celeba/base_training_config.json
 
-python training.py --dataset celeba --model_name vae_lin_nf --model_config configs/celeba/vae_lin_nf_config.json --training_config configs/celeba/base_training_config.json --use_wandb
-python training.py --dataset mnist --model_name vae_lin_nf --model_config configs/mnist/vae_lin_nf_config.json --training_config configs/mnist/base_training_config.json --use_wandb
+#python training.py --dataset celeba --model_name vae_lin_nf --model_config configs/celeba/vae_lin_nf_config.json --training_config configs/celeba/base_training_config.json --use_wandb
+python3 training.py --dataset mnist --model_name vae_lin_nf --model_config configs/mnist/vae_lin_nf_config.json --training_config configs/mnist/base_training_config.json --use_wandb
